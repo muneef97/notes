@@ -1,0 +1,142 @@
+Open source
+Virtual machine - computer inside a computer , virtual box, vmware
+Terminal - type all the commands, manage all the files
+Terminal Commands -
+Ifconfig
+Ip addr show 
+pwd(show current directory path), 
+ls( show all file), 
+Cat (read a file)
+Cat > (write a file)
+ls -a (show hidden files), 
+cd (change directory), 
+mkdir(make directory) , 
+rmdir(remove dir), 
+touch(create file),
+rm(remove file), 
+cp(copy a file), cp story story2
+mv (move a file,rename), mv story other/story
+Grep ( search for a word in a file), grep button file
+Diff (difference  between two file)
+passwd(change password)
+Echo ( print)
+Ls > name
+File : owner(u - user), group(g), everyone else(o)  (read write execute)
+Chmod (change file permission), chmod o+w name
+4 - read, 2- write , 1 - execute, 0 - no permission
+sha1sum/ sha256sum name - To make sure a downloaded file is valid (run the hash algorithm)
+Gzip file - compress a file 
+Gunzip file.gz - decompress  a file 
+Tar cvf new.tar file1 file2 - compress multiple file
+Tar xvf new.tar - decompress file
+Sudo - super user do   - sudo apt-get install php
+Bash (run a shell script)
+Sudo useradd/deluser username - adding / removing new user
+Sudo groupadd username - adding groups
+Cat /etc/passwd - viewing user
+
+Ssh (secure shell) 
+Ssh -keygen -t rsa (key generation)
+Ssh nano /etc/ssh/sshd_config (change the default ssh port)
+
+Authentication - who can access
+Authorisation - how much can access
+
+Storage device in linux :
+Fdisk ( get information about disk)  , fdisk /dev/sda, fdisk -l
+Mkfs
+Fsck (file system check)ir 
+Adding a drive - 1. Partition(fdisk) 2. Adding file system(mkfs) 3. Mount (mount)
+formating a drive,
+What are the root directories -  /dev(files related to the hardware), /etc (stores all configuration files), /opt (space for third party software such as java,program and packages), /proc(currently running processes), /var(contain variable data), /tmp(contain temporary file)
+what is file system (file system control how data is stored and retrieved)
+What are some of the file   windows(fat, ntfs), linux (ext, ext2, ext 3, ext4)
+What is cloud computing ? creating virtual machine on demand in cloud
+
+Computer networking (internet is the biggest computer network): 
+Sharing data
+Data - documents, picture , video
+Types of networks : 
+Based on reach/size  : 
+LAN(all computers are in the same building),connected by wires
+Man ( bigger than lan, all computers in a city)
+Wan (biggest computer network, wan is made up of multiple man, larger than 30 miles, eg internet,telephone company)
+Parts of a network 
+Nodes and communication media(they provide ways to transfer data between nodes)
+
+Server (special computer that many different  users can access) eg amazone web server
+Client (getting the service, get a file or data)
+server(give the service, give the file or data)
+NIC(network interface card) part of the computer that allow to connect to the internet, eth0, esp0s3
+Protocol : are the rules for communication,  one person talk at a time, specific messages recieve specific responses
+Hyper text transfer protocol, tcp, ip , udp
+
+Topology : bus(very cheap), ring(cost than bus) , star, mesh
+Osi model :(open system interconnection ) 
+application layer(chrome, firefox,email)
+Presentation (os resides in this layer, encrypt data)
+Session (conversation between two computers)
+Transport (packets are delivered)
+Network (determine the route for data)
+Data link (nic’s / checking for errors)
+Physical (physical medium like cable , fibre optics)
+
+Modem (device that connects your network to the internet),convert digital signals to analog signal
+Router
+Switch
+Repeater (accept small signal and amplify it)
+
+Ip address : to identify each device
+Subnet mask
+Network ip = ip address AND subnet mask
+Ip and port are the key to connect to a server
+Nano /etc/ssh/sshd_config (to know the port number)
+Ufw allow firewall management ,  sudo ufw allow 777/tcp, sudo ufw show added, sudo ufw enable
+
+Apache ( web server)
+
+Dhcp (dynamic host configuration protocol) - automatic assigning of ip address to a system
+DNS (domain name system)
+
+YAML :yet another markup language , data representation language
+Dictionary (key : value pair),unordered
+List (ordered)
+
+JSON(java script object notation): data representation language, used to store and save data
+
+GIT : is a software used to track changes in a project , it helps multiple user work on the same project
+Git config --global user.name “asdf”
+git config user.name
+Git init( initialize git project in a folder)
+Git repository is the location were all the files in a project are located
+Commit :save the current status of project
+Git add .   ,   git commit -m “adding”
+Git status
+Git log
+Git rm file
+Git restore file
+Git checkout file 
+Git hub : website used to make public project
+
+
+
+
+
+
+
+
+
+
+
+To revise :
+
+Numbers - binary, hexa
+32 bit vs 64 bit
+Ssd vs hdd(spinning disk) - performance , cost 
+Memory vs disk
+Terminal vs shell
+Authentication vs authorisation
+
+What is git?
+What is git repository? How is it created?
+What is git commit?
