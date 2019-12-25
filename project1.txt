@@ -140,14 +140,4 @@ Authentication vs authorisation
 What is git?
 What is git repository? How is it created?
 What is git commit?
-
-
-# Mumshad Notes
-
-Hello this is my note
-
-This is muneef
-
-
-Twinkle twinkle little start - Mumshad
-This is the last line muneef
+what is a pull request?
