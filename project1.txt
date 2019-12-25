@@ -117,8 +117,9 @@ Git rm file
 Git restore file
 Git checkout file 
 Git hub : website used to make public project
-
-
+git push(upload a file)
+git pull 
+git clone(downlaod a file)
 
 
 
