@@ -53,8 +53,9 @@ what is file system (file system control how data is stored and retrieved)
 What are some of the file   windows(fat, ntfs), linux (ext, ext2, ext 3, ext4)
 What is cloud computing ? creating virtual machine on demand in cloud
 
-Computer networking (internet is the biggest computer network): 
+Computer networking (internet is the biggest computer network): multiple computers are connected to a single computer
 Sharing data
+subnet - network within a network
 Data - documents, picture , video
 Types of networks : 
 Based on reach/size  : 
@@ -89,6 +90,7 @@ Repeater (accept small signal and amplify it)
 Ip address : to identify each device
 Subnet mask
 Network ip = ip address AND subnet mask
+ip addr add ip/subnet mask
 Ip and port are the key to connect to a server
 Nano /etc/ssh/sshd_config (to know the port number)
 Ufw allow firewall management ,  sudo ufw allow 777/tcp, sudo ufw show added, sudo ufw enable
@@ -116,7 +118,7 @@ Git log
 Git rm file
 Git restore file
 Git checkout file 
-Git hub : website used to make public project
+Git hub : website used to make public project, biggest collection of git repositories
 git remote add name http
 git remote rm name
 git push(upload a file)
