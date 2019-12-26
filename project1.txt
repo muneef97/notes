@@ -8,6 +8,7 @@ pwd(show current directory path),
 ls( show all file), 
 Cat (read a file)
 Cat > (write a file)
+vi filename 
 ls -a (show hidden files), 
 cd (change directory), 
 mkdir(make directory) , 
@@ -149,7 +150,17 @@ post (used to send data to a server)
 put (update a resource)
 delete (The DELETE method deletes the specified resource)
 
+port identifies a specific process / network service
+it is located inside a NIC
+ssh - 22
+dns - 53
+http - 80
+https - 443
+flask - 5000
 
+API application prgram interface
+Used by applications to interact with each other
+eg : using the facebook api you can get user detail, comment details etc
 
 
 
@@ -171,3 +182,5 @@ what are branches in git hub ?
 what is flask?
 what is a server?
 what are http method? 
+what is api? 
+what is rest api?
