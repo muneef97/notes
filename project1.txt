@@ -126,14 +126,35 @@ git pull
 git clone(downlaod a file)
 
 
+Flask : web framework for python, python library to develop webpages
+@ signifies a decorator
+template (basics structure or layout with html in it) contain html files
+static (contain static files like css)
 
-
-
-
-
-
-
+(from flask import Flask,render_template
+app = Flask(__name__)
+@app.route("/shopping")
+def shopping():
+    food = ["cheese", "burger", "pizza"]
+    return render_template("shopping.html" , food=food)
+if __name__ == "__main__":
+    app.run(debug=True)
 To revise :
+)
+
+http : protocol in a webserver
+http methods:
+get (request data from a specified resource)
+post (used to send data to a server)
+put (update a resource)
+delete (The DELETE method deletes the specified resource)
+
+
+
+
+
+
+
 
 Numbers - binary, hexa
 32 bit vs 64 bit
@@ -147,3 +168,6 @@ What is git repository? How is it created?
 What is git commit?
 what is a pull request? 
 what are branches in git hub ?
+what is flask?
+what is a server?
+what are http method? 
