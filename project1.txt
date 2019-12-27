@@ -140,7 +140,6 @@ def shopping():
     return render_template("shopping.html" , food=food)
 if __name__ == "__main__":
     app.run(debug=True)
-To revise :
 )
 
 http : protocol in a webserver
@@ -149,6 +148,11 @@ get (request data from a specified resource)
 post (used to send data to a server)
 put (update a resource)
 delete (The DELETE method deletes the specified resource)
+http to https : 
+buy an ssl certificate -> install ssl certificate -> make sure that links are change to https ->  set up 301 redirect to notify the search engine
+
+ssl (secure socket layer) - protocol that create encrypted communication
+tls (Transport layer security) - 
 
 port identifies a specific process / network service
 it is located inside a NIC
@@ -161,11 +165,26 @@ flask - 5000
 API application prgram interface
 Used by applications to interact with each other
 eg : using the facebook api you can get user detail, comment details etc
+rest api - api used in webpages
+
+
+openssl (to generate keys)
+cirtificate authority (verifies the cirtificate, ca) eg : , symantec,digicert ,globalsign
+public key - .crt , .pem
+private key - .key , -key.pem
 
 
 
 
 
+
+
+
+
+
+
+
+To revise :
 
 Numbers - binary, hexa
 32 bit vs 64 bit
@@ -183,4 +202,4 @@ what is flask?
 what is a server?
 what are http method? 
 what is api? 
-what is rest api?
+what is rest api? 
