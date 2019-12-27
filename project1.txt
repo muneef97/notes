@@ -8,7 +8,7 @@ pwd(show current directory path),
 ls( show all file), 
 Cat (read a file)
 Cat > (write a file)
-vi filename 
+vi filename -> esc -> : -> wq
 ls -a (show hidden files), 
 cd (change directory), 
 mkdir(make directory) , 
@@ -174,10 +174,15 @@ public key - .crt , .pem
 private key - .key , -key.pem
 
 
+Machile Learning: 
+in python use the package tensorflow
+loss - measure the loss(mean squared error)
+optimizer - Based on the loss function, it will try to minimize the loss(stochastic gradient descent)
 
-
-
-
+javascript - scripting language used to make webpage more interactive
+<script type="text/javascript">
+document.write( print)
+alert 
 
 
 
