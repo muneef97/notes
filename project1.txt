@@ -2,26 +2,21 @@ Open source
 Virtual machine - computer inside a computer , virtual box, vmware
 Terminal - type all the commands, manage all the files
 Terminal Commands -
-Ifconfig
-Ip addr show 
-pwd(show current directory path), 
+
+File :
+
 ls( show all file), 
 Cat (read a file)
 Cat > (write a file)
 vi filename -> esc -> : -> wq
-ls -a (show hidden files), 
-cd (change directory), 
-mkdir(make directory) , 
-rmdir(remove dir), 
+ls -a (show hidden files),
 touch(create file),
 rm(remove file), 
 cp(copy a file), cp story story2
 mv (move a file,rename), mv story other/story
 Grep ( search for a word in a file), grep button file
 Diff (difference  between two file)
-passwd(change password)
-Echo ( print)
-Ls > name
+Echo ( print) 
 File : owner(u - user), group(g), everyone else(o)  (read write execute)
 Chmod (change file permission), chmod o+w name
 4 - read, 2- write , 1 - execute, 0 - no permission
@@ -30,11 +25,31 @@ Gzip file - compress a file
 Gunzip file.gz - decompress  a file 
 Tar cvf new.tar file1 file2 - compress multiple file
 Tar xvf new.tar - decompress file
-Sudo - super user do   - sudo apt-get install php
-Bash (run a shell script)
+
+
+Directory :
+
+pwd(show current directory path),
+cd (change directory), 
+mkdir(make directory) , 
+rmdir(remove dir), 
+
+User :
+
+whoami (know the current user
 Sudo useradd/deluser username - adding / removing new user
 Sudo groupadd username - adding groups
 Cat /etc/passwd - viewing user
+passwd(change password)
+ 
+Ifconfig
+Ip addr show 
+ip addr add 
+
+Sudo - super user do   - sudo apt-get install php
+Bash (run a shell script)
+
+ssh :
 
 Ssh (secure shell) 
 Ssh -keygen -t rsa (key generation)
@@ -44,6 +59,7 @@ Authentication - who can access
 Authorisation - how much can access
 
 Storage device in linux :
+
 Fdisk ( get information about disk)  , fdisk /dev/sda, fdisk -l
 Mkfs
 Fsck (file system check)ir 
@@ -150,6 +166,13 @@ put (update a resource)
 delete (The DELETE method deletes the specified resource)
 http to https : 
 buy an ssl certificate -> install ssl certificate -> make sure that links are change to https ->  set up 301 redirect to notify the search engine
+http return codes - response message to inform clients of their request’s result
+1xx: Informational
+2xx: Success - 200 (OK), 201 (Created), 202 (Accepted), 204 (No Content)
+3xx: Redirection - 301 (Moved Permanently), 302 (Found), 304 (Not Modified)
+4xx: Client Error  - 400 (Bad Request), 401 (Unauthorized), 403 (Forbidden), 404 (Not Found), 405 (Method Not Allowed), 415 (Unsupported Media Type)
+5xx: Server Error - 500 (Internal Server Error)
+
 
 ssl (secure socket layer) - protocol that create encrypted communication
 tls (Transport layer security) - 
@@ -161,6 +184,7 @@ dns - 53
 http - 80
 https - 443
 flask - 5000
+mysql - 3306
 
 API application prgram interface
 Used by applications to interact with each other
@@ -183,6 +207,13 @@ javascript - scripting language used to make webpage more interactive
 <script type="text/javascript">
 document.write( print)
 alert 
+
+----------------------------------------------------------------------------------------------
+Sudoku web game :
+Developed a sudoku game using html, css, javascript , python-flask
+installed mysql on windows
+connected mysql with python using python package
+
 
 
 
@@ -208,3 +239,17 @@ what is a server?
 what are http method? 
 what is api? 
 what is rest api? 
+what is http return codes?
+what is http request?
+what is http response?
+what is ajax?
+what are the js frameworks? jquery, angular js, react js, vue.js, (vuemastery.com)
+what is software testing?
+
+What is agile methodology?
+Old software development methodology was waterfall methodology. Each phase is done one after the other. The problem with that is it is hard to make changes,
+and more time consuming to add new features or make changes. 
+
+That's why agile methodology. Project is devided into chunks or set of features, and each set is implemented in an incremental way. 
+Agile methodology helps in improving time to delivery. Features are developed in short "sprints" - 2 weeks. 
+
