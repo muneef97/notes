@@ -65,7 +65,9 @@ Mkfs
 Fsck (file system check)ir 
 Adding a drive - 1. Partition(fdisk) 2. Adding file system(mkfs) 3. Mount (mount)
 formating a drive,
-What are the root directories -  /dev(files related to the hardware), /etc (stores all configuration files), /opt (space for third party software such as java,program and packages), /proc(currently running processes), /var(contain variable data), /tmp(contain temporary file)
+What are the root directories -  /dev(files related to the hardware), /etc (stores all configuration files),
+/opt (space for third party software such as java,program and packages), /proc(currently running processes), 
+/var(contain variable data), /tmp(contain temporary file)
 what is file system (file system control how data is stored and retrieved)
 What are some of the file   windows(fat, ntfs), linux (ext, ext2, ext 3, ext4)
 What is cloud computing ? creating virtual machine on demand in cloud
@@ -135,7 +137,7 @@ Git log
 Git rm file
 Git restore file
 Git checkout file 
-Git hub : website used to make public project, biggest collection of git repositories
+Github : website used to make public project, biggest collection of git repositories
 git remote add name http
 git remote rm name
 git push(upload a file)
@@ -165,12 +167,13 @@ post (used to send data to a server)
 put (update a resource)
 delete (The DELETE method deletes the specified resource)
 http to https : 
-buy an ssl certificate -> install ssl certificate -> make sure that links are change to https ->  set up 301 redirect to notify the search engine
+buy an ssl certificate -> 
 http return codes - response message to inform clients of their request’s result
 1xx: Informational
 2xx: Success - 200 (OK), 201 (Created), 202 (Accepted), 204 (No Content)
 3xx: Redirection - 301 (Moved Permanently), 302 (Found), 304 (Not Modified)
-4xx: Client Error  - 400 (Bad Request), 401 (Unauthorized), 403 (Forbidden), 404 (Not Found), 405 (Method Not Allowed), 415 (Unsupported Media Type)
+4xx: Client Error  - 400 (Bad Request), 401 (Unauthorized), 403 (Forbidden), 
+	404 (Not Found), 405 (Method Not Allowed), 415 (Unsupported Media Type)
 5xx: Server Error - 500 (Internal Server Error)
 
 
@@ -247,9 +250,11 @@ what are the js frameworks? jquery, angular js, react js, vue.js, (vuemastery.co
 what is software testing?
 
 What is agile methodology?
-Old software development methodology was waterfall methodology. Each phase is done one after the other. The problem with that is it is hard to make changes,
+Old software development methodology was waterfall methodology. 
+Each phase is done one after the other. The problem with that is it is hard to make changes,
 and more time consuming to add new features or make changes. 
 
-That's why agile methodology. Project is devided into chunks or set of features, and each set is implemented in an incremental way. 
+That's why agile methodology. Project is devided into chunks or set of features, and each set 
+is implemented in an incremental way. 
 Agile methodology helps in improving time to delivery. Features are developed in short "sprints" - 2 weeks. 
 
