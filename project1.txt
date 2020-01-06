@@ -258,3 +258,9 @@ That's why agile methodology. Project is devided into chunks or set of features,
 is implemented in an incremental way. 
 Agile methodology helps in improving time to delivery. Features are developed in short "sprints" - 2 weeks. 
 
+------------------------------------------------------------------------------------------------
+
+How to view all Python packages and their versions?   pip list
+What are the commands to create a branch in GitHub?   git branch branchname
+show current branches -  			      git branch -a
+How do you merge new changes to master branch?        git merge [name_of_your_remote]/develop
