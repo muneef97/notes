@@ -84,9 +84,9 @@ Wan (biggest computer network, wan is made up of multiple man, larger than 30 mi
 Parts of a network 
 Nodes and communication media(they provide ways to transfer data between nodes)
 
-Server (special computer that many different  users can access) eg amazone web server
 Client (getting the service, get a file or data)
-server(give the service, give the file or data)
+server (A program or a device that provide services such as sharing data or resources to other devices called clients,
+	a single server can serve multiple clients and single client can use multiple server), eg : aws, google cloud
 NIC(network interface card) part of the computer that allow to connect to the internet, eth0, esp0s3
 Protocol : are the rules for communication,  one person talk at a time, specific messages recieve specific responses
 Hyper text transfer protocol, tcp, ip , udp
