@@ -228,7 +228,7 @@ To revise :
 Numbers - binary, hexa
 32 bit vs 64 bit
 Ssd vs hdd(spinning disk) - performance , cost 
-Memory vs disk
+Memory(RAM) vs disk(Hard disk)
 Terminal vs shell
 Authentication vs authorisation
 
