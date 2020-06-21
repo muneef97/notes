@@ -146,6 +146,8 @@ git clone(downlaod a file)
 
 
 Flask : web framework for python, python library to develop webpages
+flask works as a backend api server. it is used for accepting http request and sending corresponding response.
+to listen the user request and respond
 @ signifies a decorator
 template (basics structure or layout with html in it) contain html files
 static (contain static files like css)
